@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.road-track{
+	width:400px;
+	height:600px;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+}
+
+.racing-track{
+	padding:0px 50px;
+	top:-39400px;
+	height:40000px;
+	position:relative;
+	background:url(../images/road.png);
+	}
+
+.my-car{
+	height:100px;
+	width:80px;
+	background:url(../images/myCar.png) 0 0 no-repeat;
+	position:absolute;
+	top:450px;
+	left:160px;
+	}
+
+.opponent-car{
+	height:100px;
+	width:80px;
+	background:url(../images/opponent.png) 0 0 no-repeat;
+	position:absolute;
+	
+	}
+.score-board{
+	width:100px;
+	height:100px;
+	left:0px;
+	top:10px;
+	position:absolute;
+	background:#333333;
+	color:#ffffff;
+	top:5px;
+	left:200px;
+	line-height:28px;
+	}
+.game-over{
+	position:absolute;
+	font-size:40px;
+	color:#F00;
+	top:40px;
+	}
